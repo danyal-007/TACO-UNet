@@ -38,24 +38,27 @@ This project aims to perform **semantic segmentation** on images from the TACO d
 
 ## Repository Structure
 
-. ├── data/ # Contains the TACO dataset and annotations │ └── annotations.json # TACO annotations file │ └── images/ # TACO images ├── UNet/ # Trained model checkpoint will be saved here ├── FasterRCNN.py # Contains custom dataset utils if needed ├── TACO_Unet_Segmentation.py # Main script with all logic ├── readme.md # This file
+.
+├── data/                   # Contains the TACO dataset and annotations
+│   ├── annotations.json    # TACO annotations file
+│   └── images/             # TACO images
+├── UNet/                   # Trained model checkpoint will be saved here
+├── TACO Unet Segmentation.ipynb # Main script with all logic
+└── readme.md               # This file
 
 ## Setup
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/danyal-007/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/danyal-007/TACO-UNet.git
+    cd TACO-UNet
     ```
 2.  **Download the TACO dataset**: Download the TACO dataset and place the `annotations.json` file and `images` folder in the `data` directory as shown in the file structure above.
-3.  **Run the main script**: Execute the `TACO_Unet_Segmentation.py` script to begin training. The script will also generate visualizations:
-    ```bash
-    python TACO_Unet_Segmentation.py
-    ```
+3.  **Run the scripts**: Execute the code in `TACO Unet Segmentation.ipynb` 
 
 ## Usage
 
-The main script `TACO_Unet_Segmentation.py` includes all necessary steps:
+The main notebook `TACO Unet Segmentation.ipynb` includes all necessary steps:
 
 1.  **Data Loading and Preparation**:
     *   The script loads the TACO dataset and splits it into training, validation, and testing subsets.
