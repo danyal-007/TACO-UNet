@@ -38,13 +38,15 @@ This project aims to perform **semantic segmentation** on images from the TACO d
 
 ## Repository Structure
 
-.
+```
 ├── data/                   # Contains the TACO dataset and annotations
 │   ├── annotations.json    # TACO annotations file
 │   └── images/             # TACO images
 ├── UNet/                   # Trained model checkpoint will be saved here
 ├── TACO Unet Segmentation.ipynb # Main script with all logic
 └── readme.md               # This file
+```
+
 
 ## Setup
 
